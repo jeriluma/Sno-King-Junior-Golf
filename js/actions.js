@@ -10,7 +10,9 @@ $(function(){
 		WidthChange(mq);
 	}
 
-	$(".menu-button").click(menu);
+	$(".menu-button").click(function() {
+		$(".nav-links").toggle();
+	});
 
 }); // doc ready function
 
@@ -24,8 +26,4 @@ function WidthChange(mq) {
 		$(".menu-button").hide();
 		$(".nav-links").show();
 	}
-}
-
-function menu() {
-	$(".nav-links").show();
 }
