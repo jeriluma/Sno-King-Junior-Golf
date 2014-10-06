@@ -1,13 +1,15 @@
 @media (max-width: 768px) {
+	/* ================ GRID LAYOUT ================ */
+	.col-2, .col-3 {
+		float: none;
+	}
+
 	.container {
 		width: 100%;
 		margin: 10px;
 	}
 
-	.main {
-		padding-top: 100px;	
-	}
-
+	/* ================ NAVIGATION MENU ================ */
 	.nav {
 		position: fixed;
 		width: 100%;
@@ -25,5 +27,10 @@
 
 	.nav-links li{
 		float: none;
+	}
+
+	/* ================ MAIN ================ */
+	.main {
+		padding-top: 100px;	
 	}
 }

@@ -11,7 +11,7 @@ $(function(){
 	}
 
 	$(".nav-button").click(function() {
-		$(".nav-links").fadeToggle();
+		$(".nav-links").slideToggle(500);
 	});
 
 }); // doc ready function
