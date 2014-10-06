@@ -122,6 +122,12 @@ a:hover {
 	clear: both;
 	background-color: #224420;
 	overflow: auto;
+	color: #DDD;
+	font-weight: 300;
+}
+
+.footer-subheading {
+	text-transform: uppercase;
 }
 
 .copyright {
@@ -130,5 +136,5 @@ a:hover {
 	padding-bottom: 30px;
 	text-align: center;
 	color: #666;
-	font-size: 80%;
+	font-size: 90%;
 }
