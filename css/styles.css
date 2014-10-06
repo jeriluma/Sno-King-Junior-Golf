@@ -1,0 +1,53 @@
+/*Colors: 
+	Red: c32a1b;
+	Dark Grey: 333;
+	Light Grey: 666;
+	Green: 224420;
+	Dark Green: 011500;
+*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	font-size: 12pt;
+	font-weight: 300;
+	background-color: #011500;
+}
+
+.brand, .navbar-default .navbar-nav>li>a{
+	color: #333;	
+}
+
+.brand:hover, .navbar-default:hover .navbar-nav>li>a:hover {
+	color: #666;
+}
+
+.sno-king {
+	font-weight: 400;
+}
+
+.navbar-default {
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar {
+	background-color: #FFF;
+	height: 110px;
+	padding-top: 40px;
+}
+
+.mainHeading, .footer-contactHeader {
+	background-color: #c32a1b; 
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+.mainContent-header {
+	color: #c32a1b;
+}
+
+.footer-contactHeader {
+	/*adjust location a bit down*/
+}
