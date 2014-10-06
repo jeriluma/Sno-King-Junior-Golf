@@ -1,4 +1,5 @@
-/*Colors: 
+/* ================ COLORS ================ */
+/*
 	Red: c32a1b;
 	Dark Grey: 333;
 	Medium Grey: 666;
@@ -8,12 +9,97 @@
 	Dark Green: 011500;
 */
 
-.menu-button {
-	background: #DDD url('../img/menu-bar.png');
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	font-size: 12pt;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 150%;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 125%;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 110%;
+	font-weight: 300;
+}
+
+/* ================ LINKS ================ */
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333;
+}
+
+/* ================ GRID LAYOUT ================ */
+
+.grid, .row, .col {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row {
+	width: 100%;
+}
+
+.col {
+    width: 33%;
+    padding: 10px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* ================ NAVIGATION MENU ================ */
+
+.brand {
+	float: left;
+}
+
+.nav-links li {
+	float: right;
+}
+
+.nav-links li {
+	margin: 20px;
+}
+
+.nav-button {
+	background: url('../img/menu-bar.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 85% 80%;
 	width: 60px;
 	height: 60px;
 	border: 0;
+}
+
+.brand h1 span {
+	font-weight: 400;
+}
+
+.brand h1 {
+	float: left;
+}
+
+.nav {
+	background-color: #FFF;
+}
+
+/* ================ MAIN ================ */
+.main {
+	clear: both;
 }
