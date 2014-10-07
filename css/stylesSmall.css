@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 	body {
 		background-position: center -6%;
 		background-size: auto 600px;

@@ -5,7 +5,7 @@
 // doc ready function
 $(function(){
 	if (matchMedia) {
-		var mq = window.matchMedia( "(max-width: 768px)" );
+		var mq = window.matchMedia( "(min-width: 768px)" );
 		mq.addListener(WidthChange);
 		WidthChange(mq);
 	}
