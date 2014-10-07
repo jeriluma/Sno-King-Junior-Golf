@@ -14,21 +14,40 @@ body {
 	color: #333;
 	font-size: 12pt;
 	font-weight: 300;
+	background: #011500 url('../img/golfBG.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px -250px;
+	line-height: 1.5;
 }
 
 h1 {
-	font-size: 150%;
+	font-size: 180%;
 	font-weight: 300;
+	padding-left: 10px;
 }
 
 h2 {
-	font-size: 125%;
+	font-size: 150%;
 	font-weight: 300;
+	text-transform: uppercase;
+	color: #FFF;
+	padding: 10px 10px 10px 0;
+}
+
+h2 span {
+	background-color: #c32a1b;
+	padding: 10px 10px 10px 10px;
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 130%;
 	font-weight: 300;
+	text-transform: uppercase;
+	padding-left: 10px;
+	color: #c32a1b;
+	padding-bottom: 30px;
+	font-weight: 400;
 }
 
 /* ================ LINKS ================ */
@@ -74,20 +93,22 @@ a:hover {
 .container {
 	width: 80%;
 	margin: 0 auto;
+	clear: both;
 }
 
 /* ================ NAVIGATION MENU ================ */
 
 .brand {
 	float: left;
+	margin-left: 30px;
 }
 
 .nav-links li {
 	float: right;
-}
-
-.nav-links li {
-	margin: 20px;
+	margin-right: 50px;
+	margin-top: 40px;
+	font-size: 110%;
+	font-weight: 400;
 }
 
 .nav-button {
@@ -106,32 +127,72 @@ a:hover {
 
 .brand h1 {
 	float: left;
+	line-height: 1;
 }
 
 .nav {
 	background-color: #FFF;
 	padding-top: 50px;
+	overflow: auto;
+	padding-bottom: 30px;
 }
 
 /* ================ MAIN ================ */
 .main {
 	clear: both;
+	margin-bottom: 30px;
+	margin-top: 300px;
+
+}
+
+.main .row {
+	overflow: auto;
+	background-color: #FFF;
+	padding: 30px;
+	margin-top: 30px;
+}
+
+.main p {
+	padding-left: 10px;
 }
 
 /* ================ FOOTER ================ */
 .footer {
 	clear: both;
 	background-color: #224420;
-	overflow: auto;
 	color: #DDD;
 	font-weight: 300;
+	overflow: auto;
+}
+
+.footer-header {
+	margin-bottom: -20px;
+}
+
+.footer-heading {
+	font-size: 130%;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight: 400;
 }
 
 .footer-subheading {
 	text-transform: uppercase;
 }
 
+.google-map img {
+	width: 100%;
+}
+
+.google-map {
+	padding-right: 30px;
+	padding-left: 20px;
+}
+
 .copyright {
+	clear: both;
 	background-color: #011500;
 	padding-top: 40px;
 	padding-bottom: 30px;
