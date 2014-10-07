@@ -69,23 +69,35 @@
 		margin-top: 300px;	
 	}
 
+	.main h2 {
+		margin: 0;
+		padding-left: 30px;
+		background-color: #c32a1b;
+	}
+
+	.main h2 span {
+		margin: 0; 
+		background: none;
+	}
+
 	.main .row {
 		margin-top: 0;
 	}
 
 	/* ================ FOOTER ================ */
 	.footer {
-		padding-top: 30px;
+		padding: 30px 40px 30px 40px;
 	}
 
 	.footer-header span {
-		margin-bottom: 0;
+		margin: 0;
 		background: none;
 	}
 
 	.footer-header {
 		background-color: #c32a1b;
 		padding-bottom: 20px;
+		padding-left: 30px;
 	}
 
 	.google-map, .footer-contact .col-* {
