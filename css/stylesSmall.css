@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	body {
 		background-position: center -6%;
 		background-size: auto 600px;
@@ -24,7 +24,7 @@
 
 	.nav {
 		padding: 0;
-		padding-top: 30px;
+		padding-top: 20px;
 		margin: 0 auto;
 		width: 80%;
 		box-shadow: 3px 3px 10px #333;
@@ -112,6 +112,6 @@
 
 	.google-map img {
 		height: auto;
-		width: 300px;
+		width: 250px;
 	}
 }
