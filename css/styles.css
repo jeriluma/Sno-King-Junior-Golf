@@ -1,62 +1,169 @@
-/*Colors: 
-	Red: c32a1b;
-	Dark Grey: 333;
-	Light Grey: 666;
-	Green: 224420;
-	Dark Green: 011500;
-*/
+@import url("reset.css");
+@import url("grid.css");	
 
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #333;
 	font-size: 12pt;
 	font-weight: 300;
-	background-color: #011500;
+	background: #011500 url('../img/golfBG.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px -250px;
+	line-height: 1.5;
 }
+
+/* ================ HEADINGS ================ */
+
+h1 {
+	font-size: 180%;
+	font-weight: 300;
+	padding-left: 10px;
+}
+
+h2 {
+	font-size: 150%;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #FFF;
+	padding: 10px 10px 10px 0;
+}
+
+h2 span {
+	background-color: #c32a1b;
+	padding: 10px 10px 10px 10px;
+}
+
+h3 {
+	font-size: 130%;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-left: 10px;
+	color: #c32a1b;
+	padding-bottom: 30px;
+	font-weight: 400;
+	margin-top: 30px;
+}
+
+/* ================ LINKS ================ */
+
+a {
+	color: #333;
+	text-decoration: none;
+
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+
+a:hover {
+	color: #888;
+}
+
+/* ================ NAVIGATION MENU ================ */
 
 .brand {
-	font-size: 140%;
-	line-height: 120%;
+	float: left;
+	margin-left: 30px;
 }
 
-.brand, .navbar-default .navbar-nav>li>a{
-	color: #333;	
-}
-
-.brand:hover, .navbar-default:hover .navbar-nav>li>a:hover {
-	color: #666;
-}
-
-.sno-king {
+.nav-links li {
+	float: right;
+	margin-right: 40px;
+	margin-top: 35px;
+	font-size: 110%;
 	font-weight: 400;
 }
 
-.navbar-default {
+.nav-button {
+	background: url('../img/menu-bar.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 85% 80%;
+	width: 60px;
+	height: 60px;
 	border: 0;
-	border-radius: 0;
 }
 
-.navbar {
+.brand h1 span {
+	font-weight: 400;
+}
+
+.brand h1 {
+	float: left;
+	line-height: 1;
+}
+
+.nav {
 	background-color: #FFF;
-	height: 120px;
-	padding-top: 40px;
+	padding-top: 50px;
+	overflow: auto;
+	padding-bottom: 30px;
 }
 
-.mainHeading, .footer-contactHeader {
-	background-color: #c32a1b; 
-	color: #FFF;
-	text-transform: uppercase;
-	padding: 5px;
+/* ================ MAIN ================ */
+.main {
+	clear: both;
+	margin-bottom: 50px;
+	margin-top: 300px;
 }
 
-.mainContent-header {
-	color: #c32a1b;
+.main .row {
+	overflow: auto;
+	background-color: #FFF;
+	padding: 0 30px 30px 30px;
+	margin-top: 30px;
 }
 
+.main p {
+	padding-left: 10px;
+}
+
+/* ================ FOOTER ================ */
 .footer {
+	clear: both;
 	background-color: #224420;
+	color: #DDD;
+	font-weight: 300;
+	overflow: auto;
 }
 
-.footer-contactHeader {
-	/*adjust location a bit down*/
+.footer-header {
+	margin-bottom: -20px;
 }
+
+.footer-heading {
+	font-size: 130%;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight: 400;
+}
+
+.footer-subheading {
+	text-transform: uppercase;
+}
+
+.google-map img {
+	width: 100%;
+}
+
+.google-map {
+	padding-right: 30px;
+	padding-left: 20px;
+}
+
+.copyright {
+	clear: both;
+	background-color: #011500;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #666;
+	font-size: 90%;
+}
+
+@import url("stylesSmall.css");	
+@import url("stylesMedium.css");	
