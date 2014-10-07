@@ -48,6 +48,7 @@ h3 {
 	color: #c32a1b;
 	padding-bottom: 30px;
 	font-weight: 400;
+	margin-top: 30px;
 }
 
 /* ================ LINKS ================ */
@@ -94,6 +95,7 @@ a:hover {
 	width: 80%;
 	margin: 0 auto;
 	clear: both;
+	overflow: auto;
 }
 
 /* ================ NAVIGATION MENU ================ */
@@ -105,8 +107,8 @@ a:hover {
 
 .nav-links li {
 	float: right;
-	margin-right: 50px;
-	margin-top: 40px;
+	margin-right: 40px;
+	margin-top: 35px;
 	font-size: 110%;
 	font-weight: 400;
 }
@@ -140,15 +142,14 @@ a:hover {
 /* ================ MAIN ================ */
 .main {
 	clear: both;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	margin-top: 300px;
-
 }
 
 .main .row {
 	overflow: auto;
 	background-color: #FFF;
-	padding: 30px;
+	padding: 0 30px 30px 30px;
 	margin-top: 30px;
 }
 
