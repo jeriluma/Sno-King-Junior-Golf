@@ -1,12 +1,14 @@
 @media (max-width: 768px) {
 	body {
-		background-position:  center -6%;
+		background-position: center -6%;
 		background-size: auto 600px;
 	}
 
 	/* ================ GRID LAYOUT ================ */
-	.col-2, .col-3 {
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, 
+	.col-7, .col-8, .col-9, .col-10, .col-11 {
 		float: none;
+		width: 100%;
 	}
 
 	.container {
@@ -50,6 +52,7 @@
 		padding: 20px 40px 20px 40px;
 		margin: 0;
 		border-top: 1px solid #CCC;
+
 		-o-transition:.5s;
 		-ms-transition:.5s;
 		-moz-transition:.5s;
@@ -62,7 +65,41 @@
 
 	/* ================ MAIN ================ */
 	.main {
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 		margin-top: 300px;	
+	}
+
+	.main .row {
+		margin-top: 0;
+	}
+
+	/* ================ FOOTER ================ */
+	.footer {
+		padding-top: 30px;
+	}
+
+	.footer-header span {
+		margin-bottom: 0;
+		background: none;
+	}
+
+	.footer-header {
+		background-color: #c32a1b;
+		padding-bottom: 20px;
+	}
+
+	.google-map, .footer-contact .col-* {
+	padding: 30px;
+	margin: 0;
+
+	}
+
+	.google-map {
+		text-align: center;
+	}
+
+	.google-map img {
+		height: auto;
+		width: 300px;
 	}
 }

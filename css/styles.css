@@ -1,6 +1,3 @@
-@import url("reset.css");
-@import url("grid.css");	
-
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #333;
@@ -127,6 +124,7 @@ a:hover {
 	color: #DDD;
 	font-weight: 300;
 	overflow: auto;
+	padding: 0 10px 0 10px;
 }
 
 .footer-header {
@@ -138,7 +136,7 @@ a:hover {
 	font-weight: 300;
 	text-transform: uppercase;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	font-weight: 400;
 }
 
@@ -155,6 +153,14 @@ a:hover {
 	padding-left: 20px;
 }
 
+.footer-contact .col-* {
+	padding-left: 10px;
+}
+
+.time, .address, .footer-contact .row {
+	margin-bottom: 20px;
+}
+
 .copyright {
 	clear: both;
 	background-color: #011500;
@@ -164,6 +170,3 @@ a:hover {
 	color: #666;
 	font-size: 90%;
 }
-
-@import url("stylesSmall.css");	
-@import url("stylesMedium.css");	
