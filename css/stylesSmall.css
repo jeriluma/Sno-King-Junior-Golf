@@ -36,8 +36,20 @@
 	}
 
 	.nav-button {
+		background: url('../img/menu-bar.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 65% 60%;
+		width: 40px;
+		height: 30px;
+		border: 1px solid #DDD;
+		border-radius: 3px;
 		float: right;
 		margin-right: 10px;
+	}
+
+	.nav-button:hover {
+		background-color: #EEE;
 	}
 
 	.nav-links {
@@ -100,18 +112,17 @@
 		padding-left: 30px;
 	}
 
-	.google-map, .footer-contact .col-* {
-	padding: 30px;
-	margin: 0;
-
-	}
-
 	.google-map {
-		text-align: center;
+		display: none;
 	}
 
-	.google-map img {
-		height: auto;
-		width: 250px;
+	.footer .col-* {
+		float: none;
+		width: 100%;
+	}
+
+	.footer-contact {
+		float: left;
+		width: 49.98%;
 	}
 }

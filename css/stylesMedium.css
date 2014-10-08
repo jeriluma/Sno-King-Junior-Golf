@@ -1,0 +1,16 @@
+@media (max-width: 992px) {
+	/* ================ FOOTER ================ */
+	.footer .col-* {
+		float: none;
+		width: 100%;
+	}
+
+	.footer-contact {
+		float: left;
+		width: 49.98%;
+	}	
+
+	.google-map {
+		display: none;
+	}
+}
