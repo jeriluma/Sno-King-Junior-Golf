@@ -71,6 +71,19 @@ a:hover {
 	margin-top: 35px;
 	font-size: 110%;
 	font-weight: 400;
+	text-transform: uppercase;
+	border-bottom: 5px solid #FFF;
+	padding-bottom: 30px;
+
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+
+.nav-links-active, .nav-links li:hover {
+	color: #c32a1b;
+	border-bottom: 5px solid #c32a1b;
 }
 
 .brand h1 span {
@@ -86,7 +99,6 @@ a:hover {
 	background-color: #FFF;
 	padding-top: 50px;
 	overflow: auto;
-	padding-bottom: 30px;
 }
 
 /* ================ MAIN ================ */

@@ -63,6 +63,7 @@
 		float: none;
 		padding: 20px 40px 20px 40px;
 		margin: 0;
+		border: 0;
 		border-top: 1px solid #CCC;
 
 		-o-transition:.5s;
@@ -71,8 +72,9 @@
 		-webkit-transition:.5s;
 	}
 
-	.nav-links li:hover {
-		background-color: #DDD;
+	.nav-links-active,.nav-links li:hover {
+		background-color: #EEE;
+		border: 0;
 	}
 
 	/* ================ MAIN ================ */
