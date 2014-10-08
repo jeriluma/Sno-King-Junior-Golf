@@ -1,4 +1,13 @@
 @media (max-width: 992px) {
+	/* ================ NAVIGATION MENU ================ */
+	.brand, .nav-links li {
+		margin-left: 8px;
+	}
+
+	.nav-links li {
+		font-size: 100%;
+	}
+
 	/* ================ FOOTER ================ */
 	.footer .col-* {
 		float: none;

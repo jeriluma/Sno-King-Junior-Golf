@@ -65,6 +65,7 @@
 		margin: 0;
 		border: 0;
 		border-top: 1px solid #CCC;
+		font-size: 110%;
 
 		-o-transition:.5s;
 		-ms-transition:.5s;
@@ -115,7 +116,7 @@
 	}
 
 	.google-map {
-		display: none;
+		display: none;	
 	}
 
 	.footer .col-* {
