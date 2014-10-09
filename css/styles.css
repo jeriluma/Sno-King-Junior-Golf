@@ -100,6 +100,23 @@ a:hover {
 	overflow: auto;
 }
 
+/* ================ LOCAL NAVIGATION MENU ================ */
+.local-nav {
+	margin: 40px 0 30px 30px;
+	border-top: 1px solid #DDD;
+}
+
+.local-nav li {
+	text-transform: uppercase;	
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #DDD;
+	font-weight: 400;
+}
+
+.local-nav-active {
+	color: #c32a1b;
+}
+
 /* ================ MAIN ================ */
 .main {
 	clear: both;
@@ -116,6 +133,7 @@ a:hover {
 
 .main p {
 	padding-left: 10px;
+	margin-bottom: 20px;
 }
 
 /* ================ FOOTER ================ */

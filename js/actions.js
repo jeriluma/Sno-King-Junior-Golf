@@ -10,6 +10,8 @@ $(function(){
 		$(".nav-links").slideToggle(500);
 	});
 
+	AboutLocalNav();
+
 }); // doc ready function
 
 // media query change
@@ -22,4 +24,17 @@ function WidthChange(mq) {
 		$(".nav-button").hide();
 		$(".nav-links").show();
 	}
+}
+
+function AboutLocalNav() {
+	$(".*-content").hide();
+	$(".philosophy-content").show();
+
+	$(".local-nav li").click(function() {
+		$(".*-content").hide();
+		var className = $(this).attr('class') + '-content';
+		$(className).show();
+		
+	});
+
 }
