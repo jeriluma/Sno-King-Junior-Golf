@@ -27,14 +27,13 @@ function WidthChange(mq) {
 }
 
 function AboutLocalNav() {
-	$(".*-content").hide();
-	$(".philosophy-content").show();
+	$(".content").hide();
+	$(".default-content").show();
 
 	$(".local-nav li").click(function() {
-		$(".*-content").hide();
-		var className = $(this).attr('class') + '-content';
-		$(className).show();
-		
+		$(".content").hide();
+		$(".local-nav li").removeClass("local-nav-active");
+		$(this + " span").addClass("local-nav-arrow");
+		$(this).addClass("local-nav-active");
 	});
-
 }

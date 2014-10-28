@@ -73,6 +73,7 @@ a:hover {
 	font-weight: 400;
 	text-transform: uppercase;
 	padding-bottom: 30px;
+	border-bottom: 5px solid #FFF;
 
 	-o-transition:.5s;
 	-ms-transition:.5s;
