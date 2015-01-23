@@ -123,17 +123,16 @@
 		padding-left: 30px;
 	}
 
-/*	.google-map {
-		display: none;	
-	}*/
-
-	.footer .col-* {
-		float: none;
+	.google-map {
 		width: 100%;
+		height: 200px;
+		overflow: hidden;
+		/*position: absolute;*/
 	}
 
-	.footer-contact {
-		float: left;
-		width: 49.98%;
+	.google-map img {
+		height: auto;
+  		width: 100%;
+  		margin-top: -30%;
 	}
 }
