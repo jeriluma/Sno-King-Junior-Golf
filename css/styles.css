@@ -136,9 +136,13 @@ a:hover {
 	margin-top: 30px;
 }
 
-.main p {
+.main p, .list li div{
 	padding-left: 10px;
 	margin-bottom: 20px;
+}
+
+.list li div {
+	margin-bottom: 10px;
 }
 
 /* ================ FOOTER ================ */
