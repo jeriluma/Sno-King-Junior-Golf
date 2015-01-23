@@ -136,7 +136,7 @@ a:hover {
 	margin-top: 30px;
 }
 
-.main p, .list li div{
+.main p, .list li div, .tagline{
 	padding-left: 10px;
 	margin-bottom: 20px;
 }
