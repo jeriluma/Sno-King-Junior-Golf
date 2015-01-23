@@ -1,7 +1,7 @@
 /* ================ GRID LAYOUT ================ */
 
 .row, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, 
-.col-7, .col-8, .col-9, .col-10, .col-11 {
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     overflow: none;
@@ -22,7 +22,7 @@
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, 
 .col-7, .col-8, .col-9, .col-10, .col-11 {
 	float: left;
-	padding-right: 5px;
+	padding-right: 10px;
 }
 
 .col-1 {
@@ -34,11 +34,11 @@
 }
 
 .col-3 {
-	width: 24.99%;
+	width: 25%;
 }
 
 .col-4 {
-	width: 33.32%;
+	width: 33.33%;
 }
 
 .col-5 {
@@ -46,7 +46,7 @@
 }
 
 .col-6 {
-	width: 49.98%;
+	width: 50%;
 }
 
 .col-7 {
@@ -54,11 +54,11 @@
 }
 
 .col-8 {
-	width: 66.64%;
+	width: 66.66%;
 }
 
 .col-9 {
-	width: 74.97%;
+	width: 75%;
 }
 
 .col-10 {
@@ -67,4 +67,8 @@
 
 .col-11 {
 	width: 91.63%;
+}
+
+.col-12 {
+	width: 100%;
 }
