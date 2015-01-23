@@ -17,7 +17,7 @@
 
 	/* ================ NAVIGATION MENU ================ */
 	.container .nav {
-		position: fixed;
+		/*position: fixed;*/
 		width: 100%;
 		margin: 0;
 	}
@@ -28,11 +28,14 @@
 		margin: 0 auto;
 		width: 80%;
 		box-shadow: 3px 3px 10px #333;
+		position: fixed;
+		top: 0;
 	}
 
 	.brand {
 		width: 90%;
 		margin-bottom: 30px;
+		z-index: 500;
 	}
 
 	.nav-button {
@@ -53,10 +56,14 @@
 	}
 
 	.nav-links {
-		margin-top: 20px;
 		clear: both;
 		border-bottom: 1px solid #CCC;
-		overflow: auto;
+		overflow: none;
+		/*z-index: -100;*/
+		/*position: fixed;*/
+		margin-top: 85px;
+		background-color: #FFF;
+		width: 100%;
 	}
 
 	.nav-links li{
@@ -116,9 +123,9 @@
 		padding-left: 30px;
 	}
 
-	.google-map {
+/*	.google-map {
 		display: none;	
-	}
+	}*/
 
 	.footer .col-* {
 		float: none;
