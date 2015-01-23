@@ -145,6 +145,10 @@ a:hover {
 	margin-bottom: 10px;
 }
 
+.tagline {
+	text-transform: uppercase;
+}
+
 /* ================ FOOTER ================ */
 .footer {
 	clear: both;
