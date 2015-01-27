@@ -21,6 +21,9 @@ function WidthChange(mq) {
 		
 		$(".local-nav").hide();
 		$(".content").show();
+
+		$("#calendar-large").hide();
+		$("#calendar-small").show();
 	}
 	else { // window max is greater than 768px
 		$(".nav-button").hide();
@@ -28,6 +31,9 @@ function WidthChange(mq) {
 
 		$(".local-nav").show();
 		AboutLocalNav();
+
+		$("#calendar-large").show();
+		$("#calendar-small").hide();
 	}
 }
 
