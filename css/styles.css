@@ -32,7 +32,28 @@ h2 {
 
 h2 span {
 	background-color: #c32a1b;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
+}
+
+#tagline {
+	margin-top: 150px;
+	margin-bottom: 25px;
+	text-transform: none;
+	font-weight: 300;
+	font-size: 140%;
+	background: rgba(1, 21, 0, 0.8);
+	text-align: right;
+
+}
+
+#tagline h2 {
+	padding: 0;
+}
+
+#tagline span {
+	padding: 0;
+	background: transparent;
+	display: block;
 }
 
 h3 {
@@ -121,6 +142,7 @@ a:hover {
 	background-color: #FFF;
 	padding-top: 50px;
 	overflow: auto;
+	/*padding-bottom: 30px;*/
 }
 
 /* ================ LOCAL NAVIGATION MENU ================ */
@@ -144,7 +166,7 @@ a:hover {
 .main {
 	clear: both;
 	margin-bottom: 50px;
-	margin-top: 250px;
+	/*margin-top: 100px;*/
 }
 
 .main .row {

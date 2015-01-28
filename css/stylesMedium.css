@@ -1,4 +1,8 @@
 @media (max-width: 992px) {
+	/* ================ HEADINGS ================ */
+	#tagline {
+		text-align: center;
+	}
 	/* ================ NAVIGATION MENU ================ */
 	.brand, .nav-links li {
 		margin-left: 8px;
@@ -6,6 +10,7 @@
 
 	.nav-links li {
 		font-size: 100%;
+		margin-right: 10px;
 	}
 
 	/* ================ FOOTER ================ */

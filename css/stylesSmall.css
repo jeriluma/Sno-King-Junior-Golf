@@ -15,6 +15,21 @@
 		width: 100%;
 	}
 
+	/* ================ HEADINGS ================ */
+	#tagline {
+		margin-top: 200px;
+		margin-bottom: 100px;
+		font-weight: 300;
+		font-size: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+		text-align: center;
+	}
+
+	#tagline span {
+		display: inline;
+	}
+
 	/* ================ NAVIGATION MENU ================ */
 	.container .nav {
 		/*position: fixed;*/
@@ -92,7 +107,7 @@
 	/* ================ MAIN ================ */
 	.main {
 		margin-bottom: 0px;
-		margin-top: 300px;	
+		/*margin-top: 300px;	*/
 	}
 
 	.main h2 {
