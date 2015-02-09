@@ -311,3 +311,32 @@ a:hover {
 	color: #666;
 	font-size: 90%;
 }
+
+.facebook {
+	margin-top: 50px;
+}
+
+.facebook span {
+	background-color: rgba(59, 89, 152, 1);
+	display: inline;
+	padding: .2em .5em;
+
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+
+.facebook span:hover {
+	background-color: rgba(59, 89, 152, 0.5);
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.facebook a {
+	color: #FFF;
+	font-weight: 500;
+}
+
+.facebook a:hover {
+	color: #FFF;
+}
