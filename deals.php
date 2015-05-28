@@ -40,7 +40,7 @@
 
 	//  Logic: Empty Case
 	// if($_GET) {
-		try {
+		// try {
 			// $pdo = new PDO('mysql:host=pa1.cy0dqbof4src.us-west-2.rds.amazonaws.com; dbname=PA1', 'info344user', 'password');
 			// $pdo = new PDO('mysql:host=skjrgolf.net; dbname=skjrgolf_dealsdashbod', 'skjrgolf_deals', 'dashbod');
 			$pdo = new PDO('mysql:host=localhost; dbname=skjrgolf_dealsdashbod', 'skjrgolf_deals', 'dashbod');
@@ -53,10 +53,10 @@
 			// Logic: Map results to object
 			$result->setFetchMode(PDO::FETCH_CLASS, 'Deal');
 			echo $result;
-		} catch(PDOException $e) {
-			echo 'Error: ' . $e->getMessage();
-			errorHandle("Can not connect to database");
-		}
+		// } catch(PDOException $e) {
+		// 	echo 'Error: ' . $e->getMessage();
+		// 	errorHandle("Can not connect to database");
+		// }
 
 		// Logic: Filtering Players
 		// if($result->rowCount() > 0) { // Logic: Players found
