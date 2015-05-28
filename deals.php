@@ -1,54 +1,55 @@
 <?php
 
-class Deal {
-	public $source;
-	public $venue;
-	public $location;
-	public $originalPrice;
-	public $dealPrice;
-	public $savingPercent;
+// class Deal {
+// 	public $source;
+// 	public $venue;
+// 	public $location;
+// 	public $originalPrice;
+// 	public $dealPrice;
+// 	public $savingPercent;
 
-	public function source() {
-		return $this -> source;
-	}
+// 	public function source() {
+// 		return $this -> source;
+// 	}
 
-	public function venue() {
-		return $this -> venue;
-	}
+// 	public function venue() {
+// 		return $this -> venue;
+// 	}
 
-	public function location() {
-		return $this -> location;
-	}
+// 	public function location() {
+// 		return $this -> location;
+// 	}
 
-	public function originalPrice() {
-		return $this -> originalPrice;
-	}
+// 	public function originalPrice() {
+// 		return $this -> originalPrice;
+// 	}
 
-	public function dealPrice() {
-		return $this -> dealPrice;
-	}
+// 	public function dealPrice() {
+// 		return $this -> dealPrice;
+// 	}
 
-	public function savingPercent() {
-		return $this -> savingPercent;
-	}
-}
+// 	public function savingPercent() {
+// 		return $this -> savingPercent;
+// 	}
+// }
 
-	header('Content-type: application/json');
-	header("Access-Control-Allow-Origin: *");
+	// header('Content-type: application/json');
+	// header("Access-Control-Allow-Origin: *");
+
+	echo "hello world";
 
 	//  Logic: Empty Case
 	// if($_GET) {
 		try {
 			// $pdo = new PDO('mysql:host=pa1.cy0dqbof4src.us-west-2.rds.amazonaws.com; dbname=PA1', 'info344user', 'password');
-			// $pdo = new PDO('mysql:host=localhost; dbname=skjrgolf_dealsdashbod', 'skjrgolf_deals', 'dashbod');
+			// $pdo = new PDO('mysql:host=skjrgolf.net; dbname=skjrgolf_dealsdashbod', 'skjrgolf_deals', 'dashbod');
 			$pdo = new PDO('mysql:host=localhost; dbname=skjrgolf_dealsdashbod', 'skjrgolf_deals', 'dashbod');
 			$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			$result= $pdo->prepare('
 				SELECT * FROM deals
 			');
 
-			echo $result;
-			echo "HELLO WORLD";
+			$result->execute();
 			// Logic: Map results to object
 			$result->setFetchMode(PDO::FETCH_CLASS, 'Deal');
 			echo $result;
