@@ -53,32 +53,32 @@
 			// Logic: Map results to object
 			$result->setFetchMode(PDO::FETCH_CLASS, 'Deal');
 
-
 		} catch(PDOException $e) {
 			echo 'Error: ' . $e->getMessage();
 			errorHandle("Can not connect to database");
 		}
 
-		// Logic: Filtering Players
-		// if($result->rowCount() > 0) { // Logic: Players found
-		// 	$json = array();
+		Logic: Filtering Players
+		if($result->rowCount() > 0) { // Logic: Players found
+			$json = array();
 			
-		// 	while($deal = $result->fetch()) {
-		// 		$p = array (
-		// 			'source'=>$deal->source(),
-		// 			'venue'=>$deal->venue(),
-		// 			'location'=>$deal->location(),
-		// 			'originalPrice'=>$deal->originalPrice(),
-		// 			'dealPrice'=>$deal->dealPrice(),
-		// 			'savingPercent'=>$deal->savingPercent()
-		// 		);
-		// 		array_push($json, $p);
-		// 	}
-		// 	//echo json_encode($json); // return back to AJAX request
-		// 	echo $_GET['callback'] . '(' . json_encode($json) . ')';
-		// } else { // Logic: Empty Query Case
-		// 	errorHandle("No results found.");
-		// }
+			while($deal = $result->fetch()) {
+				$p = array (
+					'source'=>$deal->source(),
+					'venue'=>$deal->venue(),
+					'location'=>$deal->location(),
+					'originalPrice'=>$deal->originalPrice(),
+					'dealPrice'=>$deal->dealPrice(),
+					'savingPercent'=>$deal->savingPercent()
+				);
+				array_push($json, $p);
+			}
+			echo json_encode($json); // return back to AJAX request
+			// echo $_GET['callback'] . '(' . json_encode($json) . ')';
+		} else { // Logic: Empty Query Case
+			errorHandle("No results found.");
+		}
+		
 	// }
 
 	function errorHandle($StatsMessage) {
