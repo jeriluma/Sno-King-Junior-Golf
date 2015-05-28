@@ -50,9 +50,12 @@
 			');
 
 			$result->execute();
+			echo $result;
 			// Logic: Map results to object
 			$result->setFetchMode(PDO::FETCH_CLASS, 'Deal');
 			echo $result;
+
+
 		// } catch(PDOException $e) {
 		// 	echo 'Error: ' . $e->getMessage();
 		// 	errorHandle("Can not connect to database");
